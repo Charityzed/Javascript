@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>
+	SHOP
+
+</title>
+<script type="text/javascript" src="myjs.js"></script>
+</head>
+<center><h1>SHOP CALCULATOR</h1>
+<p>Select Items you want to buy to get Your Total Price Via Mail</p>
+<form method="post" name="orderform" action="mailto:" enctype="text/plain">
+<table border="0">
+    <tr><td colspan="4">
+<p><input type="checkbox" name="Item1" value="Item1_chosen" onclick="tally()"> Sugar  (Ksh 300)
+<p><input type="checkbox" name="Item2" value="Item2_chosen" onclick="tally()"> Salt (Ksh 50)
+<p><input type="checkbox" name="Item3" value="Item3_chosen" onclick="tally()"> Battery  (Ksh 700)
+<p><input type="checkbox" name="Item4" value="Item4_chosen" onclick="tally()"> Candel (Ksh 120)
+<p><input type="checkbox" name="Item5" value="Item5_chosen" onclick="tally()"> Soap  (Ksh 150)
+<p><input type="checkbox" name="Item6" value="Item6_chosen" onclick="tally()"> Shoe Polish  (Ksh 130)
+<p><input type="checkbox" name="Item7" value="Item7_chosen" onclick="tally()"> Tooth Paste  (Ksh 120)
+<p><input type="checkbox" name="Item8" value="Item8_chosen" onclick="tally()"> Tooth Brush (Ksh 75)
+<p><input type="checkbox" name="Item9" value="Item9_chosen" onclick="tally()"> Wine  (Ksh 2500)
+    </td></tr>
+<tr>
+<td> Total <input type="text" name="Total" value="Ksh 0.00" size="70"></td>
+
+</tr>
+<tr><td colspan="2" align="center"><button type="Submit" value="Send Order">TOTAL PRICE</button>
+<button type="RESET" value="Reset Order">RESET</button></td></tr>
+
+    
+  </table>
+</form>
+</center>
+</html>
